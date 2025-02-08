@@ -167,14 +167,10 @@ public class Main {
                     } while (choiceReport != 4);
                     break;
                 case 5:
-                    fileMng.saveDataToFile();
-                    System.out.print("Enter for exit:");
-                    String enter = sc.nextLine();
-                    break;
-                case 6:
                     System.out.println("Exist!");
+                    fileMng.saveDataToFile();
                     break;
             }
-        } while (choice != 6);
+        } while (choice != 5);
     }
 }
